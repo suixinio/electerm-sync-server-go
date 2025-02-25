@@ -4,7 +4,7 @@ A simple electerm data sync server with go.
 
 ## Use
 
-Requires go
+Requires go 1.16+
 
 ```bash
 git clone git@github.com:electerm/electerm-sync-server-go.git
