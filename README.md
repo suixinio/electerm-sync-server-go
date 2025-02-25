@@ -47,7 +47,7 @@ GIN_MODE=release ./bin/electerm-sync-server-linux
 ## Test
 
 ```bash
-bin/test
+bin/test.sh
 ```
 
 ## Write your own data store

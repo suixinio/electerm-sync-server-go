@@ -1,4 +1,4 @@
-module github.com/electerm/electerm-sync-server-golang
+module github.com/electerm/electerm-sync-server-go
 
 go 1.24.0
 

@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/electerm/electerm-sync-server-golang/src/store"
+	"github.com/electerm/electerm-sync-server-go/src/store"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/joho/godotenv"
