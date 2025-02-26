@@ -52,7 +52,7 @@ bin/test.sh
 
 ## Write your own data store
 
-Just take [src/filestore.go](src/filestore.go) as an example, write your own read/write method
+Just take [src/store/filestore.go](src/store/filestore.go) as an example, write your own read/write method
 
 ## Sync server in other languages
 
@@ -63,6 +63,8 @@ Just take [src/filestore.go](src/filestore.go) as an example, write your own rea
 - [electerm-sync-server-java](https://github.com/electerm/electerm-sync-server-java)
 - [electerm-sync-server-node](https://github.com/electerm/electerm-sync-server-node)
 - [electerm-sync-server-python](https://github.com/electerm/electerm-sync-server-python)
+- [electerm-sync-server-deno](https://github.com/electerm/electerm-sync-server-deno)
+- [electerm-sync-server-go](https://github.com/electerm/electerm-sync-server-go)
 
 ## License
 
