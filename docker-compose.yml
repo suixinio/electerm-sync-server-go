@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  electerm-sync-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "7837:7837"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PORT=7837
+      - HOST=0.0.0.0
+      - JWT_SECRET=283hsdfye@!2@9oijnjSwda09  # Change this in production!
+      - JWT_USERS=username1,username2,xxxx,hhhh
+      - FILE_STORE_PATH=/app/data
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:7837/test"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s

@@ -1,0 +1,29 @@
+# Git
+.git
+.gitignore
+
+# Build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test files
+*_test.go
+*_test/
+test/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local development specific files
+.env
+*.log
+
+# User data
+folder/
